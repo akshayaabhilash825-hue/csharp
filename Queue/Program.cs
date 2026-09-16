@@ -10,8 +10,7 @@ class Program
         Books.Add("Lord of the Rings", "Available");
         Books.Add("The Hobbit", "Rented");
 
-        Dictionary<string, Queue<string>> waitingList =
-    new Dictionary<string, Queue<string>>();
+        Dictionary<string, Queue<string>> waitingList =new Dictionary<string, Queue<string>>();
 
         Console.WriteLine("Available Books:");
 
