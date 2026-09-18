@@ -5,8 +5,7 @@ class Program
     
     static void WelcomeCustomer(string name, string product, string city)
     {
-        Console.WriteLine($"Welcome {name} from {city}! " +
-                          $"Your order for {product} has been received.");
+        Console.WriteLine($"Welcome {name} from {city}! " + $"Your order for {product} has been received.");
     }
 
     static string GetDiscountMessage(string name)
